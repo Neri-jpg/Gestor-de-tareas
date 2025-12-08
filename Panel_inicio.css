@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background: linear-gradient(55deg, #236c2e, #e5ebe6, #1e261d);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    margin: 0;
+    padding: 0;
+}
+@keyframes gradientBG {
+    0%{background-position:0% 50%
+    }
+    50%{background-position:100% 50%
+    }
+    100%{background-position:0% 50%
+    }
+}
+
+.Titulo{
+    text-align: center;
+    font-size: 125px;
+    font-family: sans-serif, Arial;
+    color: white;
+    margin-top: 20px;
+}
+.Sub{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif, Arial;
+    color: white;
+    margin-top: -20px;
+}
+.Motivo{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif, Arial;
+    color: white;
+    margin-top: -10px;
+}
+.Boton{
+    font-size: 30px;
+    font-family: sans-serif, Arial;
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
